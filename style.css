@@ -45,5 +45,11 @@ li {
     font-family: 'Manrope', sans-serif;
     color: white;
     background: linear-gradient(#8E86B5, #ACAEED);
+    border-radius: 50px;
+}
 
+.contenu {
+    border: solid 1px #8e86b5;
+    border-top: 0;
+    border-left: 0;
 }
