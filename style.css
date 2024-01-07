@@ -52,15 +52,19 @@ nav a {
     margin: auto 0;
 }
 
+
 #section-presentation {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+
 }
 
 #section-presentation p,
 #section-presentation .cta {
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 
