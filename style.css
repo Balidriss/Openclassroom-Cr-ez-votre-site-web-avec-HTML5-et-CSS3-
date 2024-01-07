@@ -52,6 +52,21 @@ nav a {
     margin: auto 0;
 }
 
+#section-presentation {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#section-presentation p,
+#section-presentation .cta {
+    margin: 40px 0;
+}
+
+
+
+
+
 
 .cta {
     background: linear-gradient(#8e86b5, #acaeed);
