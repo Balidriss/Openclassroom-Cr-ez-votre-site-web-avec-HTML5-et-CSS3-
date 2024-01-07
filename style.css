@@ -150,6 +150,7 @@ section {
 }
 
 .grid-portrait {
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
 }
 
