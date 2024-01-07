@@ -2,6 +2,7 @@ body {
     background-color: #1F2039;
 }
 
+
 h1 {
     font-size: 3.5em;
     font-family: 'Montserrat', sans-serif;
@@ -35,6 +36,9 @@ h2,
 li {
     color: #F9F8FF;
 }
+
+
+
 
 .liens {
     color: #242424;
