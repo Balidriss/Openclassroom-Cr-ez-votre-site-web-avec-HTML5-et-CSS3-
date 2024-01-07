@@ -76,6 +76,7 @@ ul {
 }
 
 .CTA {
+    padding: 20px;
     font-family: 'Manrope', sans-serif;
     color: white;
     background: linear-gradient(#8E86B5, #ACAEED);
