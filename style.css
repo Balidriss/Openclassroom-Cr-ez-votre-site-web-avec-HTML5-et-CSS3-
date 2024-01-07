@@ -149,7 +149,7 @@ section {
     grid-template-rows: 300px 300px 300px;
 }
 
-.grid-portrait {
+.grid-portraits {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
 }
