@@ -1,5 +1,6 @@
 body {
     background-color: #1F2039;
+    font-size: 1em;
 }
 
 
@@ -44,12 +45,14 @@ li {
 
 
 
-.liens {
+footer,
+header {
     color: #242424;
     background-color: white;
 }
 
-.liens img:hover {
+footer img:hover,
+header img:hover {
     opacity: 0.5;
 
 }
