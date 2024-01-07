@@ -92,6 +92,7 @@ footer a {
     color: white;
     border-radius: 50px;
     padding: 20px 30px;
+    display: inline-block;
 }
 
 a:hover {
