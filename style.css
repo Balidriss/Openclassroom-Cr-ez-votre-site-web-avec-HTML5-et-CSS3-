@@ -40,7 +40,8 @@ footer {
     padding: 20px 50px;
 }
 
-nav {
+nav,
+footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -52,6 +53,9 @@ nav a {
     margin: auto 0;
 }
 
+footer a {
+    margin: 0 10px;
+}
 
 #section-presentation {
     display: flex;
@@ -67,12 +71,21 @@ nav a {
     margin: 30px 0;
 }
 
+#section-projet {
+    background-color: white;
+}
 
+#section-projet h2 {
+    text-align: center;
+    color: #1f2039;
+}
 
-
-
-
-
+.row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
 
 .cta {
     background: linear-gradient(#8e86b5, #acaeed);
