@@ -1,7 +1,27 @@
-a {
-    color: black;
+h1 {
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #A5B4FC;
 }
 
-.valeurs {
+p {
+    font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+li {
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+}
+
+a {
+    font-size: 1em;
+    color: black;
+    text-decoration-line: none;
+}
+
+em {
     color: #A5B4FC;
+    font-style: normal;
 }
