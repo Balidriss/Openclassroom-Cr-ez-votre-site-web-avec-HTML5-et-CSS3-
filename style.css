@@ -32,6 +32,8 @@ section {
     padding: 80px;
 }
 
+
+
 p,
 li {
     font-size: 1.1em;
@@ -78,6 +80,29 @@ footer a {
 #section-presentation p,
 #section-presentation .cta {
     margin: 30px 0;
+}
+
+#section-contact form {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+
+#section-contact form .row-name-email {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#section-contact .form-name,
+#section-contact .form-email,
+#section-contact .form-message {
+    display: flex;
+    flex-direction: column;
 }
 
 #section-projet {

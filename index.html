@@ -53,13 +53,21 @@
         <section id="section-contact">
             <h2>Parlons de votre projet</h2>
             <form method="get" action="">
-                <label for "nom">nom</label>
-                <input type="text" name="username" id="nom">
-                <label for "email">e-mail</label>
-                <input type="email" name="email" id="email">
+                <div class="row-name-email">
+                <div class="form-name">
+                    <label for "nom">nom</label>
+                    <input type="text" name="username" id="nom">
+                </div>
+                <div class="form-email">
+                    <label for "email">e-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+            </div>
+            <div class="form-message">
                 <label for "message">message</label>
                 <textarea name="message" id="message" cols="50" rows="10"></textarea>
-                <input type="submit" value="Envoyer">
+            </div>
+                <input type="submit" value="Envoyer" class="cta">
             </form>
         </section>
     </main>
