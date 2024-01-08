@@ -28,6 +28,10 @@ h2 {
     color: #f9f8ff;
 }
 
+section {
+    padding: 80px;
+}
+
 p,
 li {
     font-size: 1.1em;
@@ -92,6 +96,33 @@ footer a {
     margin: 20px 0;
 }
 
+.price-table {
+
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 80px;
+}
+
+
+.price-table td,
+.price-table th {
+    padding: 15px;
+    border: solid 1px #a5b4fc;
+}
+
+.price-table td {
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.price-table h2 {
+
+    margin-bottom: 40px;
+}
+
 .cta {
     background: linear-gradient(#8e86b5, #acaeed);
     color: white;
@@ -123,10 +154,6 @@ footer a {
 
 .carre-contenu ul {
     margin-top: 30px;
-}
-
-section {
-    padding: 80px;
 }
 
 .a-propos-main {
