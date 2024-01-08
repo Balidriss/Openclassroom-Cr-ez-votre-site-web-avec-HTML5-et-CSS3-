@@ -53,6 +53,11 @@ nav a {
     margin: auto 0;
 }
 
+nav a:hover {
+    text-decoration: underline;
+
+}
+
 footer a {
     margin: 0 10px;
 }
@@ -95,9 +100,7 @@ footer a {
     display: inline-block;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+
 
 .cta:hover {
     background: linear-gradient(#696484, #8788ba);
@@ -156,24 +159,37 @@ section {
 }
 
 .container img {
+
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition-property: transform;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
-}
-
-.container img:hover {
-
-    transform: scale(1.02);
 
 }
 
-.container .showme {}
+.container a {
+    position: relative;
 
-.container img:hover+.showme {
+}
 
-    transform: scale(1.02);
+.showme {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #000000BB;
+    display: none;
+
+}
+
+.container :hover .showme {
+
+    display: flex;
 
 }
