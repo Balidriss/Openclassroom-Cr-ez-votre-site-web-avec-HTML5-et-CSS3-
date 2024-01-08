@@ -82,6 +82,12 @@ footer a {
     margin: 30px 0;
 }
 
+#section-contact h2 {
+    text-align: center;
+    color: #a5b4fc;
+    margin-bottom: 40px;
+}
+
 #section-contact form {
 
     display: flex;
@@ -96,6 +102,8 @@ footer a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+
 }
 
 #section-contact .form-name,
@@ -103,6 +111,33 @@ footer a {
 #section-contact .form-message {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+#section-contact label:not(.cta) {
+
+    padding-left: 10px;
+}
+
+#section-contact input:not(.cta),
+#section-contact textarea {
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+#section-contact .cta {
+
+    text-transform: uppercase;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#section-contact .form-message,
+#section-contact .row-name-email {
+    width: 60%;
 }
 
 #section-projet {
@@ -153,6 +188,7 @@ footer a {
     color: white;
     border-radius: 50px;
     padding: 20px 30px;
+    border: none;
     display: inline-block;
 }
 
