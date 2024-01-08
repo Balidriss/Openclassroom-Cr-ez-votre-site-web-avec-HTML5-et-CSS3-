@@ -363,4 +363,14 @@ footer a {
         padding: 10px;
     }
 
+
+    .grid-paysages {
+        grid-template-columns: 1fr;
+        grid-template-rows: 600px 600px 600px 600px 600px 600px 600px 600px 600px;
+    }
+
+    .grid-portraits {
+        grid-template-columns: 1fr;
+        grid-template-rows: 600px 600px 600px 600px 600px 600px;
+    }
 }
